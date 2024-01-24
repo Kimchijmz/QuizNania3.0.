@@ -1,0 +1,120 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>QuizNania3._0_</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="QuizImages\2pac.jpg" />
+    <None Remove="QuizImages\AMG.jpg" />
+    <None Remove="QuizImages\Brands.jpeg" />
+    <None Remove="QuizImages\Cars.jpg" />
+    <None Remove="QuizImages\CustomQuiz.jpg" />
+    <None Remove="QuizImages\Fendi.png" />
+    <None Remove="QuizImages\Ferrari.jpg" />
+    <None Remove="QuizImages\Genre.jpg" />
+    <None Remove="QuizImages\Gucci.jpg" />
+    <None Remove="QuizImages\HipHop.jpg" />
+    <None Remove="QuizImages\Lambo.jpg" />
+    <None Remove="QuizImages\LV.png" />
+    <None Remove="QuizImages\NBA.jpg" />
+    <None Remove="QuizImages\NWA.jpg" />
+    <None Remove="QuizImages\Porsche.jpg" />
+    <None Remove="QuizImages\PP.jpg" />
+    <None Remove="QuizImages\QuizNania.jpg" />
+    <None Remove="QuizImages\RR.jpg" />
+    <None Remove="QuizImages\RS7.jpg" />
+    <None Remove="QuizImages\Soccer.jpg" />
+    <None Remove="QuizImages\Sports.jpg" />
+    <None Remove="QuizImages\UFC.jpg" />
+    <None Remove="QuizImages\Versace.png" />
+    <None Remove="QuizImages\Wutang.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="QuizImages\Lambo.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="QuizImages\2pac.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\AMG.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\Brands.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\Cars.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\CustomQuiz.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\Fendi.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\Ferrari.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\Genre.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\Gucci.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\HipHop.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\LV.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\NBA.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\NWA.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\Porsche.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\PP.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\QuizNania.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\RR.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\RS7.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\Soccer.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\Sports.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\UFC.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\Versace.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="QuizImages\Wutang.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

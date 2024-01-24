@@ -1,0 +1,53 @@
+﻿<Window x:Class="QuizNania3._0_.Windows.HipHopWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuizNania3._0_.Windows"
+        mc:Ignorable="d"
+        Title="H I P H O P   Q U I Z " Height="800" Width="1000" Background="Black">
+    <Grid x:Name="myGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Label Name="scoreText" FontSize="18" Background="MediumOrchid" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2">Score : 0/10</Label>
+        <Label Name="questionOrder"  FontSize="18" Background="MediumOrchid" Grid.Column="3" Grid.Row="0">QuestionOrder</Label>
+
+        <Image x:Name="qImage" Source="/QuizImages/HipHop.jpg" Grid.Column="3" Grid.Row="3" Height="200" Width="400"/>
+
+        <TextBlock x:Name="QuestionText" FontSize="20" FontWeight="Bold" TextAlignment="Center" Padding="3" Background="MediumOrchid" Grid.Column="3" Grid.Row="4">
+            Quiz Question
+        </TextBlock>
+
+        <Button Background="MediumVioletRed" FontSize="18" Click="checkAnswer" x:Name="answr1" Content="Answer1" Tag="0"  Grid.Column="3" Grid.Row="6"/>
+        <Button Background="MediumVioletRed" FontSize="18" Click="checkAnswer" x:Name="answr2" Content="Answer2" Tag="0" Grid.Column="3" Grid.Row="8"/>
+        <Button Background="MediumVioletRed" FontSize="18" Click="checkAnswer" x:Name="answr3" Content="Answer3" Tag="0" Grid.Column="3" Grid.Row="10"/>
+        <Button x:Name="Menu" Grid.Column="3" Grid.Row="11" FontWeight="Bold" Content="MENU" Height="50" Width="100" FontSize="20" Background="Red"  Click="BackToMenu_Click" Margin="150,20,150,0" Grid.RowSpan="2" VerticalAlignment="Top" />
+    </Grid>
+</Window>
